@@ -1,0 +1,17 @@
+bcrypt
+cryptography
+fastapi~=0.111.0
+psycopg2-binary
+PyMySQL
+python-jose
+python-multipart
+SQLAlchemy~=2.0.30
+uvicorn
+passlib
+pytest
+httpx
+pytest-asyncio
+aiofiles
+jinja2
+pydantic~=2.7.3
+starlette~=0.37.2
