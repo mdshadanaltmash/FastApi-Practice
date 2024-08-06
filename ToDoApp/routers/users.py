@@ -1,6 +1,6 @@
 from typing import Annotated
 
-from fastapi import APIRouter, Depends, HTTPException, Path
+from fastapi import APIRouter, Depends, HTTPException
 from passlib.context import CryptContext
 from passlib.handlers.bcrypt import bcrypt
 from pydantic import BaseModel, Field
@@ -8,7 +8,7 @@ from sqlalchemy.orm import Session
 from starlette.status import HTTP_200_OK, HTTP_202_ACCEPTED, HTTP_204_NO_CONTENT
 
 from database import SessionLocal
-from models import Todos, Users
+from models import Users
 from .auth import get_current_user
 
 router = APIRouter(
