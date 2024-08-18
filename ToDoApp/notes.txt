@@ -1,0 +1,16 @@
+{
+  "email": "mdshadanaltmash@gmail.com",
+  "username": "mdshadan",
+  "first_name": "Md Shadan",
+  "last_name": "Altmash",
+  "password": "test123",
+  "role": "admin"
+}
+
+
+{
+  "title": "Wipro L2 Interview",
+  "description": "Prepare for Wipro's L2 Interview, scheduled on 25th Jul 4 PM",
+  "priority": 1,
+  "complete": false
+}
